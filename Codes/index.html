@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Navigation section -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo"><span>Eshuwaa</span></div>
+      <div class="links">
+        <div><a href="#home">Home</a></div>
+        <div><a href="#about">About</a></div>
+        <div><a href="#skills">Skills</a></div>
+        <div><a href="#services">Services</a></div>
+        <div><a href="#contact">Contact</a></div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+    <div class="dropdown">
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- home Section -->
+  <section id="home">
+    <div class="main-container">
+      <div class="content">
+        <h1>Hey I'm <span>Eshuwaa</span></h1>
+        <div class="typewriter">
+          I'm a <span style="color:#4a90e2" class="typewriter-text"></span>
+        </div>
+        <p>Who brings new ideas to life through clean and modern code. Whether it's a website, app or eye-catching graphics, I aim to create experiences that connect, engage, and inspire.</p>
+        <div class="social-links">
+          <a href="https://github.com/Eshwar-Chaudhary"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div><br>
+        <div class="btn">
+          <button><a href="chat.html">Hire Me</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+
+    <div class="about-details">
+      <div class="about-image-container">
+        <img src="/assets/Main.jpg" alt="Profile Image" />
+      </div>
+
+      <div class="right">
+        <div class="topic">Designing is My Passion</div>
+        <p>
+          Hey, I’m Eshuwaa — a creative developer, designer, and digital creator based in Nepal.
+          I blend clean code with bold design to craft websites, graphics, and content that don’t just look great —
+          they connect, convert, and captivate. Let's make it real. 🚀
+        </p><br />
+        
+        <div class="button">
+          <button> <a href="cv/my-cv.pdf">Download CV</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <p>I’m a passionate developer and designer with a focus on modern front-end technologies.</p>
+      <div class="skills-details">
+        <div class="skill"><div class="skill-info"><span>HTML</span><span>75%</span></div><div class="progress-bar"><div class="progress" style="width: 75%;"></div></div></div>
+        <div class="skill"><div class="skill-info"><span>CSS</span><span>70%</span></div><div class="progress-bar"><div class="progress" style="width: 70%;"></div></div></div>
+        <div class="skill"><div class="skill-info"><span>Java</span><span>68%</span></div><div class="progress-bar"><div class="progress" style="width: 68%;"></div></div></div>
+        <div class="skill"><div class="skill-info"><span>JavaScript</span><span>52%</span></div><div class="progress-bar"><div class="progress" style="width: 52%;"></div></div></div>
+        <div class="skill"><div class="skill-info"><span>React</span><span>20%</span></div><div class="progress-bar"><div class="progress" style="width: 20%;"></div></div></div>
+        <div class="skill"><div class="skill-info"><span>Node.js</span><span>15%</span></div><div class="progress-bar"><div class="progress" style="width: 15%;"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>My Services</span></div>
+      <div class="service-row">
+        <div class="box"><div class="icon"><i class="fas fa-desktop"></i></div><div class="topic">Web Development</div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p></div>
+        <div class="box"><div class="icon"><i class="fas fa-paint-brush"></i></div><div class="topic">Graphic Design</div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p></div>
+        <div class="box"><div class="icon"><i class="fas fa-chart-line"></i></div><div class="topic">Digital Marketing</div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p></div>
+        <div class="box"><div class="icon"><i class="fas fa-android"></i></div><div class="topic">Icon Design</div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p></div>
+        <div class="box"><div class="icon"><i class="fas fa-camera-retro"></i></div><div class="topic">Photography</div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p></div>
+        <div class="box"><div class="icon"><i class="fas fa-tablet-alt"></i></div><div class="topic">App Development</div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p></div>
+        <div class="box"><div class="icon"><i class="fas fa-cog"></i></div><div class="topic">UI/UX Design</div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p></div>
+        <div class="box"><div class="icon"><i class="fas fa-bullhorn"></i></div><div class="topic">Content Creation</div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic">Have any Project?</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus sapiente repudiandae aspernatur inventore cupiditate ullam voluptatibus.</p>
+        <div class="button" id="button"><br>
+          <button> <a href="chat.html">Let's Chat </a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">Eshuwaa77</a> &#169;2025 All Rights Reserved</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
